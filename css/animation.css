@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+}
+@keyframes anim1 {
+    0% {
+        background-color: red;
+        
+    }
+    50% {
+        background-color: brown;
+        width: 500px;
+        height: 600px;
+    }
+    100% {
+        background-color: aqua;
+        width: 300px;
+        height: 300px;
+    }
+}
+.block:hover {
+    
+}

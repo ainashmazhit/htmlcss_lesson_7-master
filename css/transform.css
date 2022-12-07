@@ -1,0 +1,28 @@
+* {
+margin: 0;    
+padding: 0;
+box-sizing: border-box;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /*transform: translateX(50px); */
+    transform: scale(200%, 200px);
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform-origin: scale(2, 2);
+}
+.block1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: scalex (1), rotate(40deg); translate: (40px);
+    transform-origin: left top;
+ }
